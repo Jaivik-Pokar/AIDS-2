@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Heart Health Charts</title>
+</head>
+<body>
+    <div id="header" class="section">
+        <h1>Heart Health Dataset Visualization</h1>
+        <p>This webpage displays visualizations of the Heart Health dataset. The dataset includes information about individuals' age, maximum heart rate, cholesterol levels, and target values.</p>
+    </div>
+    
+    <div class="chart-container">
+        <div id="googleChartContainer" class="chart"></div>
+        <div id="googlePieChartContainer" class="chart"></div>
+        <div id="googleCholChartContainer" class="chart"></div>
+    </div>
+    
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
